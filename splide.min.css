@@ -1,0 +1,24 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: rgb(121, 51, 4)
+}
+.splide__slide img {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  object-fit: cover;
+  padding: 10px;
+}
+a{
+  color: wheat;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}

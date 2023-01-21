@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <title>შესავსები ფორმა</title>
+  </head>
+  <body>
+    <section>
+      <a href="slide.html"><h2> Splide JS </h2></a> </a>
+   </section>
+    <section>
+      <form action="" id="form-registration" class="form">
+        <div class="form-wraper">
+          <label for="name">სახელი</label>
+          <input type="text" id="name" name="name" />
+          <span class="error-text" id="error_name"></span>
+        </div>
+        <div class="form-wraper">
+          <label for="surname">გვარი</label>
+          <input type="text" id="surname" name="surname" />
+          <span class="error-text" id="error_surname"></span>
+        </div>
+        <div class="form-wraper">
+          <label for="passw1">პაროლი</label>
+          <input class="text-input password-input" type="password" id="passw1" name="mypassword" placeholder="Password" />
+          <span class="error-text" id="error_mypassword"></span>
+        </div>
+        <div class="form-wraper">
+          <label for="passw2">გაიმეორეთ პაროლი</label>
+          <input class="text-input password-input" type="password" id="passw2" name="mypassword2"  placeholder=" Repeat Password"/>
+          <span class="error-text" id="error_mypassword2"></span>
+        </div>
+        <div>
+          <input type="radio" name="age" id="age1" class="age" />
+          <label for="age1">18-25</label>
+          <input type="radio" id="age2" name="age" class="age" />
+          <label for="age2">26-31</label>
+          <input type="radio" id="age2" name="age" class="age" />
+          <label for="age3">32-40</label>
+          <input type="radio" id="age2" name="age" class="age" />
+          <label for="age4">41-50</label>
+          <input type="radio" id="age2" name="age" class="age" />
+          <label for="age5">51+</label>
+          <span class="error-text" id="error_age"></span>
+        </div>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree">გავეცანი და ვეთანხმები წესებს</label>
+          <span class="error-text" id="error_agree"></span>
+        </div>
+        <button type="submit">შევსება</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

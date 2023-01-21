@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a{
+  color: wheat;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+body{
+  background-color: rgba(26, 97, 204, 0.808)
+}
+
+
+.form {
+  border: 5px solid black;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 30px;
+  background-color: rgb(118, 148, 245);
+}
+.form-wraper {
+  display: flex;
+  flex-direction: column;
+}
+.error-text{
+  display: block;
+  color: red;
+  font-size: 20px;
+}
+.passw {
+  max-width: 700px;
+  width: 100%;
+}
+.emailError {
+  display: block;
+}
+.show-icon {
+  color: #000;
+  cursor: pointer;
+}
